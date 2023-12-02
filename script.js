@@ -28,7 +28,7 @@ function updateDate(){
     let month = now.getMonth();
     let year = now.getFullYear();
 
-    data.innerHTML = `${day}/${month+1}/${year}`;
+    data.innerHTML = `${fixeZero(day)}/${fixeZero(month+1)}/${year}`;
 
 }
 
